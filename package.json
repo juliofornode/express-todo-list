@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.1.16",
+    "mongoskin": "^2.1.0",
     "morgan": "^1.7.0",
     "path": "^0.12.7"
   }
