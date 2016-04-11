@@ -1,5 +1,12 @@
-//1. app dependencies: npm and our own modules
+//1. app dependencies
+
+//npm modules
 var express = require('express');
+var path = require('path');
+
+
+//our own modules
+var routes = require('./routes');
 
 
 //2. db connection
@@ -17,7 +24,7 @@ var port = app.get('port');
 
 
 //5. middleware definition (static, form handling, error handling, etc)
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(path.join(__dirname + '/public')));
 
 
 //6. routes and request handlers
