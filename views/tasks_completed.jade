@@ -1,20 +1,7 @@
 extends layout
 
 block content
-
-  .menu
-    h2 Menu
-    ul.nav.nav-pills
-      li
-        a(href='/') Home
-      li
-        a(href='/tasks') Todo List
-      li.active
-        a(href="/tasks/completed") Completed
-
-  h1= title
-
-  .list
+  .home
     if (tasks.length === 0)
       | No tasks.
     each task, index in tasks
