@@ -9,3 +9,12 @@ The purpose of this app is to design a todo list.
 
 * Main tools: express, mongoskin, body-parser, cookie-parser, express-session, csurf,
 errorhandler, method-override, jade, less, morgan, serve-favicon.
+
+
+## Steps
+
+1. Basic setup
+2. DB setup
+3. Routes and jade views
+4. CSS and LESS
+5. CSRF
